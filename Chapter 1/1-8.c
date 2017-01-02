@@ -13,7 +13,6 @@ main()
   long c;
   int count = 0;
 
-  c = getchar();
   while ((c = getchar()) != EOF) {
     if (c == ' ' || c == '\n' || c == '\t') {
       ++count;
